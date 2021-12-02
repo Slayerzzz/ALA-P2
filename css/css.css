@@ -45,4 +45,17 @@ a:hover {
     left: 49vw;
     top: 30px;
 }
+.plaatje1 {
+    position: relative;
+    top: 5vw;
+    left: 5vw;
+    border: #334766 solid 15px;
+}
+.tekst1 {
+    position: relative;
+    bottom: 16vw;
+    left: 15vw;
+    width: 500px;
+    color: white;
+}
 

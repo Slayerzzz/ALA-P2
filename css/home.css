@@ -65,27 +65,16 @@ a:hover {
     width: 500px;
     color: white;
 }
-
-
-
-.persoon1 img {
-/* bryan */
-    margin: 100px 0px 0px 0px;
-}
-.persoon2 img {
-/* mitchanok */
-    margin: 100px 0px 0px 0px;
-}
-.persoon3 img {
-/* nathan */
-    margin: 100px 0px 0px 0px;
-}
-.persoon4 img {
-/* daan */
-    margin: 100px 0px 0px 100px;
-}
-.persoon5 img {
-/* jesse */
-    margin: 150px 0px 0px 100px;
+.plaatje2 {
+    border: #334766 solid 15px;
+    position: relative;
+    bottom: 10vw;
+    left: 15vw;
 }
 
+.plaatje3 {
+    border: #334766 solid 15px;
+    position: relative;
+    bottom: 10vw;
+    left: 20vw;
+}

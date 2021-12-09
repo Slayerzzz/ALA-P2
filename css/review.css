@@ -2,7 +2,10 @@
 * {
     margin: auto;
     padding: 0;
-    box-sizing: border-box;
+}
+html {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -11,6 +14,8 @@ header {
 }
 body {
     background-color: #082032;
+    max-width: 100%;
+    overflow-x: hidden;
 
 }
 .balk1 {

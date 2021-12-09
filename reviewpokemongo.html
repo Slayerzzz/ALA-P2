@@ -8,6 +8,7 @@
     <title>Review</title>
 </head>
 <link rel="stylesheet" href="css/review.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 <body>
     <header>
@@ -37,6 +38,62 @@
 
     </article>
     <img class="go" src="images/unnamed (1).jpg" height="300px">
+
+    <h1 class="h2">Over pokemon go</h1>
+    <p class="p1">Pokemon go is een game waarbij je tussen de echte wereld en de virtuele wereld van de Pokémon alle
+        pokemon
+        kan vangen! Met Pokémon GO ontdek je Pokémon in een compleet nieuwe wereld: je eigen wereld. Pokémon GO is
+        gebaseerd op Niantics platform voor levensecht gamen en maakt gebruik van echte locaties om spelers te
+        stimuleren in alle hoeken en gaten van de wereld op zoek te gaan naar Pokémon.</p>
+    <iframe class="govideo" width="600px" height="300px" src="https://www.youtube.com/embed/yQCREgz4tQY"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <section id="review2">
+        <div class="container">
+            <div class="post">
+                <div class="text">Bedankt voor de review!</div>
+                <div class="edit">EDIT</div>
+            </div>
+            <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5">
+                <label for="rate-5" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-4">
+                <label for="rate-4" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-3">
+                <label for="rate-3" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-2">
+                <label for="rate-2" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-1">
+                <label for="rate-1" class="fas fa-star"></label>
+                <form action="#">
+
+                    <div class="textarea">
+                        <textarea cols="30" placeholder="Beschrijf uw ervaring..."></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Verzend</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+        btn.onclick = () => {
+            widget.style.display = "none";
+            post.style.display = "block";
+            editBtn.onclick = () => {
+                widget.style.display = "block";
+                post.style.display = "none";
+            }
+            return false;
+        }
+    </script>
 
 </body>
 

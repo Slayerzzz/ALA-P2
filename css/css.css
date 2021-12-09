@@ -8,6 +8,9 @@ header {
     background-color: #334756;
     height: 4.6vw;
 }
+html {
+    padding: 2px;
+}
 body {
     background-color: #082032;
 }

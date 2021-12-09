@@ -115,3 +115,10 @@ a:hover {
     width: 500px;
     color: white;
 }
+
+#merch1 {
+    margin: 150px 0px 0px 150px
+}
+#merch2 {
+    margin: 150px 100px 0px 150px
+}

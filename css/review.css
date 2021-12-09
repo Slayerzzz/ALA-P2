@@ -69,5 +69,9 @@ ul {
 }
 .nav2 a:hover {
     background-color: #db901f;
-
+}
+.go {
+    border: #334766 solid 10px;
+    margin-top: 5vw;
+    margin-left: 5vw;
 }

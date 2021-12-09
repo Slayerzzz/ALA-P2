@@ -1,0 +1,73 @@
+/*home */
+* {
+    margin: auto;
+    padding: 0;
+}
+
+header {
+    background-color: #334756;
+    height: 4.6vw;
+}
+body {
+    background-color: #082032;
+}
+.balk1 {
+    background-color: #f0a500;
+    position: relative;
+    top: 60px;
+    color: #f0a500;
+    height: 30px;
+}
+li {
+    float: left;
+}
+ul {
+    list-style: none;
+    position: relative;
+    top: 20px;
+    }
+.nav1 a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-large;
+    padding: 30px;
+}
+.nav1 a:hover {
+    background-color: #334766;
+    padding-top: 30px;
+	padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80px;
+}
+.winkelwagen {
+    position: relative;
+    left: 49vw;
+    top: 30px;
+}
+.plaatje1 {
+    position: relative;
+    top: 5vw;
+    left: 5vw;
+    border: #334766 solid 15px;
+}
+.tekst1 {
+    position: relative;
+    bottom: 16vw;
+    left: 15vw;
+    width: 500px;
+    color: white;
+}
+.nav2 a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    padding: 4px;
+    position: relative;
+    top: 5px;
+    right: 51.3vw;
+}
+.nav2 a:hover {
+    background-color: #db901f;
+
+}

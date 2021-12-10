@@ -119,7 +119,7 @@ a:hover {
     margin: 150px 0px 0px 150px;
 }
 #merch2 {
-    margin: 150px 100px 0px 150px;
+    margin: 250px 100px 0px 150px;
 }
 #merch3 {
     margin: 150px 0px 100px 900px;
@@ -158,4 +158,10 @@ body {
 .winkelwagen { 
     margin: -100px 0px -10px -100px;
 
+}
+#maat1 {
+    margin: -155px 0px 0px 220px;
+}
+#demo {
+    color: white;
 }

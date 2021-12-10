@@ -8,6 +8,7 @@
     <title>Merch</title>
 </head>
 <link rel="stylesheet" href="css/merch.css">
+<link rel="" href="php/merch.php"
 
 <body>
     <header>
@@ -24,11 +25,27 @@
             <p> .</p>
         </article>
     </header>
+    
     <section id="merch1">
         <img src="images/merch/trui.png" alt="trui png" height="150" width="200">
-     </section>
+        <table id="maat1">
+            <tr><td><input type:"text" name="maat" placeholder="Vul uw maat in"></td></tr>
+        
+        <button onclick="myFunction()">Voeg toe</button>
+        <p id="demo"></p>
+        <script>
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "Toegevoegd aan winkelwagen.";
+        }
+        </script>
+        </table>
+     
+    </section>
     
-    <section id="merch2">
+   
+   
+   
+     <section id="merch2">
         <img src="images/merch/shirt.png" alt="shirt png" height="150" width="200">
     </section>
     
@@ -55,6 +72,8 @@
     <section id="merch8">
         <img src="images/merch/muismat.png" alt="muismat png" height="150" width="200">
     </section>
+
+    
 
 
 </body>

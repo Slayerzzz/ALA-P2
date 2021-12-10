@@ -70,10 +70,9 @@ body {
 }
 .balk1 {
     background-color: #f0a500;
-    position: relative;
-    top: 60px;
     color: #f0a500;
     height: 30px;
+    margin: -10px 0px 0px 0px;
 }
 li {
     float: left;
@@ -117,8 +116,46 @@ a:hover {
 }
 
 #merch1 {
-    margin: 150px 0px 0px 150px
+    margin: 150px 0px 0px 150px;
 }
 #merch2 {
-    margin: 150px 100px 0px 150px
+    margin: 150px 100px 0px 150px;
+}
+#merch3 {
+    margin: 150px 0px 100px 900px;
+    position: relative;
+    bottom: 608px;
+}
+#merch4 {
+    margin: 150px 0px 100px 900px;
+    position: relative;
+    bottom: 608px;
+}
+#merch5 {
+    margin: 150px 0px 100px 150px;
+    position: relative;
+    bottom: 600px;
+}
+#merch6 {
+    margin: 150px 0px 100px 900px;
+    position: relative;
+    bottom: 904px;   
+}
+#merch7 {
+    margin: 150px 0px 100px 150px;
+    position: relative;
+    bottom: 904px;
+}
+#merch8 {
+    margin: 150px 0px 100px 900px;
+    position: relative;
+    bottom: 1208px
+}
+
+body {
+    height: 120px;
+}
+.winkelwagen { 
+    margin: -100px 0px -10px -100px;
+
 }

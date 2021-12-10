@@ -52,8 +52,22 @@ a:hover {
 }
 .tekst1 {
     position: relative;
-    bottom: 16vw;
-    left: 15vw;
-    width: 500px;
-    color: white;
+    left: 25vw;
+    border: 1px solid;
+    width: 30vw;
+    height: 100vh;
+}
+img {
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+    height: 18vh;
+    width: 20vw;
+    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
+    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
+    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
+}
+h1 {
+    color: #FFFFFF;
+    font-family: 'Cabin', sans-serif;
 }

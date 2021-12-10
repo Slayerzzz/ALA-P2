@@ -73,6 +73,7 @@ a:hover {
     right: 23vw;
     width: 100%;
     text-align: center;
+    display: none;
   }
   
   .prev, .next {
@@ -101,7 +102,7 @@ a:hover {
     width: 15px;
     position:relative;
     right: 23vw;
-    top: 1vw;
+    top:3vw;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;

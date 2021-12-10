@@ -24,6 +24,13 @@ body {
 li {
     float: left;
 }
+li a:hover:not(.active) {
+    background-color: #334766;
+  }
+  .active {
+    background-color:#334766 ;
+  }
+
 ul {
     list-style: none;
     position: relative;
@@ -61,6 +68,7 @@ a:hover {
     width: 500px;
     color: white;
 }
+
 
 
 .persoon1 img {

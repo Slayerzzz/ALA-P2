@@ -52,29 +52,110 @@ a:hover {
     left: 49vw;
     top: 30px;
 }
-.plaatje1 {
+
+.mySlides {
+    display: nones;
     position: relative;
     top: 5vw;
-    left: 5vw;
+    right: 23vw;
     border: #334766 solid 15px;
 }
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    position: relative;
+    right: 23vw;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: relative;
+    right: 13vw;
+    bottom: 5vw;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    left:23vw ;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    position:relative;
+    right: 23vw;
+    top: 1vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 .tekst1 {
     position: relative;
     bottom: 16vw;
-    left: 15vw;
+    left: 18vw;
     width: 500px;
     color: white;
+    font-size: 25px;
 }
 .plaatje2 {
     border: #334766 solid 15px;
     position: relative;
     bottom: 10vw;
-    left: 15vw;
+    left: 12vw;
 }
 
 .plaatje3 {
     border: #334766 solid 15px;
     position: relative;
     bottom: 10vw;
-    left: 20vw;
+    left: 17vw;
+}
+
+.plaatje4 {
+    border: #334766 solid 15px;
+    position: relative;
+    bottom: 10vw;
+    left: 22vw;
+}
+.plaatje5{
+    border: #334766 solid 15px;
+    position: relative;
+    bottom: 10vw;
+    left: 27vw;
 }

@@ -96,6 +96,9 @@ a:hover {
     padding-right: 30px;
     width: 80px;
 }
+p {
+    color: white;
+}
 .winkelwagen {
     position: relative;
     left: 49vw;
@@ -117,39 +120,44 @@ a:hover {
 
 #merch1 {
     margin: 150px 0px 0px 150px;
+/*    border: solid green; */
 }
 #merch2 {
-    margin: 250px 100px 0px 150px;
+    margin: 150px 0px 0px 150px;
+/*    border: solid green */
 }
 #merch3 {
     margin: 150px 0px 100px 900px;
     position: relative;
-    bottom: 608px;
+    bottom: 693px;
 }
+
 #merch4 {
     margin: 150px 0px 100px 900px;
     position: relative;
-    bottom: 608px;
+    bottom: 688px;
 }
 #merch5 {
     margin: 150px 0px 100px 150px;
     position: relative;
     bottom: 600px;
+/*    border: solid green;  */
 }
 #merch6 {
     margin: 150px 0px 100px 900px;
     position: relative;
-    bottom: 904px;   
+    bottom: 945px;  
 }
 #merch7 {
     margin: 150px 0px 100px 150px;
     position: relative;
     bottom: 904px;
+/*  border: solid green; */
 }
 #merch8 {
     margin: 150px 0px 100px 900px;
     position: relative;
-    bottom: 1208px
+    bottom: 1250px
 }
 
 body {
@@ -157,11 +165,35 @@ body {
 }
 .winkelwagen { 
     margin: -100px 0px -10px -100px;
-
-}
-#maat1 {
-    margin: -155px 0px 0px 220px;
 }
 #demo {
+    color: white;
+}
+
+#demo2 {
+    color: white;
+}
+
+#demo3 {
+    color: white;
+}
+
+#demo4 {
+    color: white;
+}
+
+#demo5 {
+    color: white;
+}
+
+#demo6 {
+    color: white;
+}
+
+#demo7 {
+    color: white;
+}
+
+#demo8 {
     color: white;
 }

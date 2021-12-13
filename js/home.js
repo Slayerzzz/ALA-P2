@@ -1,13 +1,6 @@
 
 var slideIndex = 0;
 showSlides();
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
 function showSlides() {
   var i;
@@ -23,5 +16,5 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000);
+  setTimeout(showSlides, 3000);
 }

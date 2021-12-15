@@ -19,6 +19,7 @@ body {
     color: #f0a500;
     height: 30px;
 }
+
     .prev, .next,.text {
       font-size: 11px  
     }
@@ -125,7 +126,7 @@ a:hover {
     width: 15px;
     position:relative;
     right: 23vw;
-    top:3vw;
+    top:4vw;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;

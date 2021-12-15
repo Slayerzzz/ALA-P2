@@ -19,7 +19,32 @@
       padding-right: 15px;
       width: 15px;
   }
-  
+  .containers img {
+    width: 75%;
+    height: auto;
+  }
+  .containers {
+    position: relative;
+    left: 35vw;
+    top: 15vw;
+    width: 100%;
+    max-width: 400px;
+  }
+  .btns {
+    position: relative;
+    left: 35vw;
+    bottom: 23vw;
+  }
+  #infotext {
+    display: none;
+  }
+  body {
+    height: 200vw;
+  }
+  .nav2 {
+    position: relative;
+    right: 50vw;
+  }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   header {
@@ -29,6 +54,28 @@
   a {
       padding: 15px;
       font-size: x-large;
+  }
+  .containers img {
+    width: 100%;
+    height: auto;
+  }
+  .containers {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  .btns {
+    position: relative;
+    bottom: 9vw;
+    left: 14vw;
+  }
+  body {
+    height: 120vw;
+  }
+  .nav2 {
+    position: relative;
+    top: 5px;
+    right: 51.3vw;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1279px) {
@@ -40,6 +87,28 @@
       padding: 30px;
       font-size: xx-large;
   }
+  .containers img {
+    width: 100%;
+    height: auto;
+  }
+  .containers {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  .btns {
+    position: relative;
+    bottom: 9vw;
+    left: 14vw;
+  }
+  body {
+    height: 120vw;
+  }
+  .nav2 {
+    position: relative;
+    top: 5px;
+    right: 51.3vw;
+  }
 }
 @media screen and (min-width: 1280px) {
   header {
@@ -49,6 +118,28 @@
   a {
       padding: 40px;
       font-size: xx-large;
+  }
+  .containers img {
+    width: 100%;
+    height: auto;
+  }
+  .containers {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  .btns {
+    position: relative;
+    bottom: 9vw;
+    left: 14vw;
+  }
+  body {
+    height: 120vw;
+  }
+  .nav2 {
+    position: relative;
+    top: 5px;
+    right: 51.3vw;
   }
 }
 html {
@@ -61,8 +152,8 @@ header {
 }
 body {
     background-color: #082032;
-    max-width: 100%;
-    overflow-x: hidden;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 
 }
 .balk1 {
@@ -83,8 +174,6 @@ ul {
 .nav1 a {
     text-decoration: none;
     color: aliceblue;
-    font-size: x-large;
-    padding: 30px;
 }
 .nav1 a:hover {
     background-color: #334766;
@@ -335,21 +424,7 @@ p {
       bottom: 5vw;
       left: 5vw;
   }
-  .containers {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-  }
-  
-  .containers img {
-    width: 100%;
-    height: auto;
-  }
-  
   .containers .btns {
-    position: relative;
-    bottom: 9vw;
-    left: 14vw;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     color: black;
@@ -413,4 +488,8 @@ a {
 .reviewbutton {
   padding: 0;
   font-size: larger;
+}
+#infotext {
+  position: relative;
+  top: 4.5vw;
 }

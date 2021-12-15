@@ -3,10 +3,65 @@
     margin: auto;
     padding: 0;
 }
+@media screen and (max-width: 480px) {
+    header {
+        height: 13vw;
+        width: 1000vw;
+    }
+    a {
+        padding: 10px;
+        font-size: larger;
+    }
+    a:hover {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 15px;
+    }
+    
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        height: 10vw;
+        width: 100vw;
+    }
+    a {
+        padding: 15px;
+        font-size: x-large;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    header {
+        height: 7vw;
+        width: 100vw;
+    } 
+    a {
+        padding: 30px;
+        font-size: xx-large;
+    }
+}
+@media screen and (min-width: 1280px) {
+    header {
+        height: 4vw;
+        width: 100vw;
+    } 
+    a {
+        padding: 40px;
+        font-size: xx-large;
+    }
+    a:hover {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 15px;
+    }
+}
+
 
 header {
     background-color: #334756;
-    height: 4.6vw;
 }
 html {
     padding: 2px;
@@ -39,16 +94,9 @@ ul {
 a {
     text-decoration: none;
     color: aliceblue;
-    font-size: x-large;
-    padding: 30px;
 }
 a:hover {
     background-color: #334766;
-    padding-top: 30px;
-	padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 80px;
 }
 .winkelwagen {
     position: relative;

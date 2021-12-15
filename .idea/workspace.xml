@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce03018b-15d5-4f96-920c-4b836fe83ae7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/SI_Wii_SuperMarioGalaxy_image1600w.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/rating.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rating.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rating.html" beforeDir="false" afterPath="$PROJECT_DIR$/rating.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/opdracht" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,6 +47,8 @@
       <option name="presentableId" value="Default" />
       <updated>1639075571223</updated>
       <workItem from="1639075572485" duration="3195000" />
+      <workItem from="1639565645308" duration="84000" />
+      <workItem from="1639579482673" duration="28000" />
     </task>
     <servers />
   </component>

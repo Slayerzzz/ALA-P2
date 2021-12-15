@@ -373,7 +373,8 @@ p {
 .linksreview {
   position: relative;
   right: 30vw;
-  margin-top: 3vw;
+  top: 5vw;
+ 
 }
 a {
   text-decoration: none;
@@ -408,4 +409,8 @@ a {
   padding: 40px;
   border: #334766 solid 20px;
   border-radius: 5%;
+}
+.reviewbutton {
+  padding: 0;
+  font-size: larger;
 }

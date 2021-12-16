@@ -8,7 +8,10 @@
       height: 13vw;
       width: 1000vw;
   }
-  a {
+  li {
+    float: left;
+  }
+  .navsizemain {
       padding: 10px;
       font-size: larger;
   }
@@ -43,39 +46,68 @@
   }
   .nav2 {
     position: relative;
-    right: 50vw;
+    right: 100vw;
+  }
+  .sizenav {
+    font-size: larger;
+  }
+  .smash {
+    position: relative;
+    top: 0.5vw ;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   header {
-      height: 10vw;
+      height: 11vw;
       width: 100vw;
   }
-  a {
+  .navsizemain {
       padding: 15px;
       font-size: x-large;
   }
+  a:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 15px;
+  }
   .containers img {
-    width: 100%;
+    width: 150%;
     height: auto;
   }
   .containers {
     position: relative;
+    left: 15vw;
     width: 100%;
     max-width: 400px;
   }
   .btns {
     position: relative;
-    bottom: 9vw;
-    left: 14vw;
+    left: 40vw;
+    bottom: 25vw;
   }
   body {
-    height: 120vw;
+    height: 200vw;
   }
   .nav2 {
     position: relative;
-    top: 5px;
-    right: 51.3vw;
+    top: 0.7vw;
+    right: 50vw;
+  }
+  .smash {
+    position: relative;
+    bottom: 2.9vw;
+    left: 48vw;
+  }
+  li {
+    float: left;
+  }
+  #infotext {
+    display: none;
+  }
+  .sizenav {
+    font-size: larger;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1279px) {
@@ -83,9 +115,19 @@
       height: 7vw;
       width: 100vw;
   } 
-  a {
+  li {
+    float: left;
+  }
+  .navsizemain {
       padding: 30px;
-      font-size: xx-large;
+      font-size: x-large;
+  }
+  a:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 15px;
   }
   .containers img {
     width: 100%;
@@ -98,16 +140,32 @@
   }
   .btns {
     position: relative;
-    bottom: 9vw;
-    left: 14vw;
+    bottom: 11vw;
+    left: 16vw;
   }
   body {
     height: 120vw;
   }
   .nav2 {
     position: relative;
-    top: 5px;
-    right: 51.3vw;
+    right: 45vw;
+    font-size: medium;
+  }
+  .smash {
+    font-size: x-large;
+    position: relative;
+    right: 37vw;
+  }
+  #infotext {
+    position: relative;
+    bottom: 9vw;
+    left: 3vw;
+  }
+  .minecraftinfo, .dutyinfo, .smashinfo {
+    height: 160px;
+  }
+  .sizenav {
+    font-size: x-large;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -115,9 +173,22 @@
       height: 4vw;
       width: 100vw;
   } 
-  a {
-      padding: 40px;
+  li {
+    float: left;
+  }
+  .navsizemain {
+      padding: 30px;
       font-size: xx-large;
+  }
+  .sizenav {
+    font-size: x-large;
+  }
+  a:hover {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 15px;
+    width: 15px;
   }
   .containers img {
     width: 100%;
@@ -138,8 +209,16 @@
   }
   .nav2 {
     position: relative;
-    top: 5px;
-    right: 51.3vw;
+    top: 4px;
+    right: 47vw;
+  }
+  #infotext {
+  position: relative;
+  bottom: 9vw;
+  }
+  .smash {
+    position: relative;
+    font-size: x-large;
   }
 }
 html {
@@ -162,9 +241,6 @@ body {
     top: 60px;
     color: #f0a500;
     height: 30px;
-}
-li {
-    float: left;
 }
 ul {
     list-style: none;
@@ -204,11 +280,7 @@ ul {
 .nav2 a {
     text-decoration: none;
     color: aliceblue;
-    font-size: larger;
     padding: 4px;
-    position: relative;
-    top: 5px;
-    right: 51.3vw;
 }
 .nav2 a:hover {
     background-color: #db901f;
@@ -489,7 +561,4 @@ a {
   padding: 0;
   font-size: larger;
 }
-#infotext {
-  position: relative;
-  top: 4.5vw;
-}
+

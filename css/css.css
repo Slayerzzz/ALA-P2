@@ -8,7 +8,7 @@
         height: 13vw;
         width: 1000vw;
     }
-    a {
+    .navsizemain {
         padding: 10px;
         font-size: larger;
     }
@@ -26,7 +26,7 @@
         height: 10vw;
         width: 100vw;
     }
-    a {
+    .navsizemain {
         padding: 15px;
         font-size: x-large;
     }
@@ -36,7 +36,7 @@
         height: 7vw;
         width: 100vw;
     } 
-    a {
+    .navsizemain {
         padding: 30px;
         font-size: xx-large;
     }
@@ -46,7 +46,7 @@
         height: 4vw;
         width: 100vw;
     } 
-    a {
+    .navsizemain {
         padding: 40px;
         font-size: xx-large;
     }

@@ -8,6 +8,24 @@
       height: 13vw;
       width: 1000vw;
   }
+  .go {
+    display: none;
+  }
+  iframe {
+    display: none;
+  }
+  .textgebied {
+    display: none;
+  }
+  .container {
+    position: relative;
+    bottom: 100vw;
+  }
+  .error {
+    display: block;
+    margin-top: 20vw;
+    margin-left: 2vw;
+  }
   li {
     float: left;
   }
@@ -27,16 +45,10 @@
     height: auto;
   }
   .containers {
-    position: relative;
-    left: 35vw;
-    top: 15vw;
-    width: 100%;
-    max-width: 400px;
+   display: none;
   }
   .btns {
-    position: relative;
-    left: 35vw;
-    bottom: 23vw;
+   display: none;
   }
   #infotext {
     display: none;
@@ -61,6 +73,20 @@
       height: 11vw;
       width: 100vw;
   }
+  .textgebied{
+    display: none;
+  }
+  iframe {
+    display: none;
+  }
+  .go {
+    display: none;
+  }
+  .error {
+    display: block;
+    margin-top: 20vw;
+    margin-left: 2vw;
+  }
   .navsizemain {
       padding: 15px;
       font-size: x-large;
@@ -73,8 +99,7 @@
     width: 15px;
   }
   .containers img {
-    width: 150%;
-    height: auto;
+   display: none;
   }
   .containers {
     position: relative;
@@ -83,9 +108,7 @@
     max-width: 400px;
   }
   .btns {
-    position: relative;
-    left: 40vw;
-    bottom: 25vw;
+    display: none;
   }
   body {
     height: 200vw;
@@ -109,6 +132,9 @@
   .sizenav {
     font-size: larger;
   }
+  .nav2 {
+    display: none;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1279px) {
   header {
@@ -117,6 +143,15 @@
   } 
   li {
     float: left;
+  }
+  .container {
+    position: relative;
+    bottom: 5vw;
+    left: 3vw;
+  }
+  .textgebied {
+    position: relative;
+    bottom: 4vw;
   }
   .navsizemain {
       padding: 30px;
@@ -173,22 +208,33 @@
       height: 4vw;
       width: 100vw;
   } 
+  .container {
+    margin-top: 5vw;
+    position: relative;
+    right: 15vw;
+    bottom: 1vw;
+  }
+  .textgebied {
+    position: relative;
+    top:5vw;
+    right: 14vw;
+  }
   li {
     float: left;
   }
   .navsizemain {
-      padding: 30px;
+      padding: 40px;
       font-size: xx-large;
   }
   .sizenav {
     font-size: x-large;
   }
   a:hover {
-    padding-top: 30px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 15px;
-    width: 15px;
+    padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 15px;
   }
   .containers img {
     width: 100%;
@@ -201,8 +247,8 @@
   }
   .btns {
     position: relative;
-    bottom: 9vw;
-    left: 14vw;
+    bottom: 7vw;
+    left: 12vw;
   }
   body {
     height: 120vw;
@@ -210,17 +256,18 @@
   .nav2 {
     position: relative;
     top: 4px;
-    right: 47vw;
+    right: 54vw;
   }
   #infotext {
   position: relative;
-  bottom: 9vw;
+  top: 20vw;
   }
   .smash {
     position: relative;
     font-size: x-large;
   }
 }
+
 html {
     max-width: 100%;
     overflow-x: hidden;
@@ -284,6 +331,7 @@ ul {
 }
 .nav2 a:hover {
     background-color: #db901f;
+    padding-bottom: 0;
 }
 .go {
     border: #334766 solid 10px;
@@ -508,7 +556,7 @@ p {
     border-radius: 5px;
     text-align: center;
   }
-  .containers :hover {
+  .containsrs .btns :hover {
     background-color: #db901f;
     color: white;
   }

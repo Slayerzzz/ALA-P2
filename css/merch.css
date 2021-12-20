@@ -3,6 +3,42 @@
     padding: 0;
 }
 
+@media screen and (max-width: 480px) {
+    header {
+        display: none;
+    }
+    #alles {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        display: none;
+    }
+    #alles {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    header {
+        display: none;
+    }
+    #alles {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #respond {
+    display: none;
+    }
+}
+
+#respond {
+    color: white;
+}
 header {
     background-color: #334756;
     height: 4.6vw;
@@ -39,28 +75,6 @@ a:hover {
     padding-right: 30px;
     width: 80px;
 }
-.winkelwagen {
-    position: relative;
-    left: 49vw;
-    top: 30px;
-}
-.plaatje1 {
-    position: relative;
-    top: 5vw;
-    left: 5vw;
-    border: #334766 solid 15px;
-}
-.tekst1 {
-    position: relative;
-    bottom: 16vw;
-    left: 15vw;
-    width: 500px;
-    color: white;
-}* {
-    margin: auto;
-    padding: 0;
-}
-
 header {
     background-color: #334756;
     height: 4.6vw;
@@ -99,24 +113,7 @@ a:hover {
 p {
     color: white;
 }
-.winkelwagen {
-    position: relative;
-    left: 49vw;
-    top: 30px;
-}
-.plaatje1 {
-    position: relative;
-    top: 5vw;
-    left: 5vw;
-    border: #334766 solid 15px;
-}
-.tekst1 {
-    position: relative;
-    bottom: 16vw;
-    left: 15vw;
-    width: 500px;
-    color: white;
-}
+
 
 #merch1 {
     margin: 150px 0px 0px 150px;

@@ -85,3 +85,7 @@ input[type=text], select, textarea {
     border-radius: 5px;
     padding: 20px;
   }
+  p{
+      color: whitesmoke;
+      font-size:2rem;
+  }

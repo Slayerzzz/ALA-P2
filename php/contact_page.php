@@ -26,28 +26,9 @@
             <p> .</p>
         </article>
     </header>
+    <body>
+<?php
+echo 
 
-    <article class="tekst1">
- <p>voor vragen of opmerkingen kunt u hier uw reactie achterlaten en wij reageren binnen 2 werkdagen.</p>
-    </article>
-<br>
-<br>
-    <article class="rating">
-        
-        <form action="php/contact_page.php">
-          <label for="name">schrijf hier jouw Naam</label>
-          <input type="text" id="name" placeholder="Naam">
-      
-          <label for="mail">schrijf hier jouw E-mail</label>
-          <input type="text" id="mail" name="E-mail" placeholder=" E-mail">
-      
-          <label for="onderwerp"></label>
-          <textarea id="text" name="subject" placeholder="schrijf hier iets in.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-        </form>
-    </article>
-
-</body>
-
-</html>
+?>
+    </Body>

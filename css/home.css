@@ -184,4 +184,9 @@ a:hover {
     bottom: 8vw;
     left: 27vw;
 }
+ footer{
+   display:inline-block;
+   margin-left: 15vw;
+   
+}
 }

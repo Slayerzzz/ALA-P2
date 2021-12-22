@@ -185,9 +185,13 @@ a:hover {
     bottom: 8vw;
     left: 27vw;
 }
- footer{
-   display:inline-block;
-   margin-left: 15vw;
-   
+ footer img {
+  position: relative;
+  left: 85vw;
+}
+
+footer{
+  background-color: #334756;
+  height: 3.5vw;
 }
 }

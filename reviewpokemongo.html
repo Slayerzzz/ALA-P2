@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+</head>
+<link rel="stylesheet" href="css/review.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+<body>
+    <header>
+        <nav class="nav1">
+            <ul>
+                <li><a class="navsizemain" href="index.html">Home</a></li>
+                <li><a class="navsizemain" href="merch.html">Merch</a></li>
+                <li><a class="navsizemain" href="rating.html">Rating</a></li>
+                <li><a class="navsizemain" href="review.html">Reviews</a></li>
+                <li><a class="navsizemain" href="over ons.html">About us</a></li>
+                <li><a class="navsizemain" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <article class="winkelwagen">
+
+        </article>
+        <article class="balk1">
+            <nav class="nav2">
+                <li><a class="sizenav" href="reviewminecraft.html">minecraft</a></li>
+                <li><a class="sizenav" href="reviewcallofduty.html">call of duty</a></li>
+                <li><a class="smash" href="reviewpokemongo.html">Super smash Bros</a></li>
+            </nav>
+        </article>
+    </header>
+
+    <article class="tekst1">
+
+    </article>
+    <img class="go"
+        src="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperSmashBrosUltimate_02_image1600w.jpg"
+        height="300px">
+    <article class="textgebied">
+        <h1 class="h2">Over Super smash bros ultimate</h1>
+        <p class="p1">Super Smash Bros. Ultimate is nu verkrijgbaar voor de Nintendo Switch! De game kan in het begin
+            wat
+            overweldigend zijn als je hem nog nooit gespeeld hebt, want er zijn ontzettend veel vechters en
+            mogelijkheden!
+            Gelukkig is deze game gemaakt voor allerlei soorten spelers. Zelfs spelers die nog nooit een vechtgame
+            hebben
+            gespeeld, kunnen volop genieten van Super Smash Bros. Ultimate.</p>
+    </article>
+    <iframe class="govideo" width="600px" height="300px" src="https://www.youtube.com/embed/WShCN-AYHqA"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <section id="review2">
+        <div class="container">
+            <div class="post">
+                <div class="text">Bedankt voor de review!</div>
+                <div class="edit">EDIT</div>
+            </div>
+            <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5">
+                <label for="rate-5" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-4">
+                <label for="rate-4" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-3">
+                <label for="rate-3" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-2">
+                <label for="rate-2" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-1">
+                <label for="rate-1" class="fas fa-star"></label>
+                <form action="#">
+
+                    <div class="textarea">
+                        <textarea cols="30" placeholder="Beschrijf uw ervaring..."></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Verzend</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <h1 class="error">sorry, u kunt deze website alleen openen op een groter scherm</h1>
+    <script>
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+        btn.onclick = () => {
+            widget.style.display = "none";
+            post.style.display = "block";
+            editBtn.onclick = () => {
+                widget.style.display = "block";
+                post.style.display = "none";
+            }
+            return false;
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: none;
+    }
+    #alles {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        display: none;
+    }
+    #alles {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    header {
+        display: none;
+    }
+    #alles {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #respond {
+    display: none;
+    }
+}
+
+#respond {
+    color: white;
+}
+header {
+    background-color: #334756;
+    height: 4.6vw;
+}
+body {
+    background-color: #082032;
+}
+.balk1 {
+    background-color: #f0a500;
+    position: relative;
+    top: 60px;
+    color: #f0a500;
+    height: 30px;
+}
+li {
+    float: left;
+}
+ul {
+    list-style: none;
+    position: relative;
+    top: 20px;
+    }
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-large;
+    padding: 30px;
+}
+a:hover {
+    background-color: #334766;
+    padding-top: 30px;
+	padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80px;
+}
+header {
+    background-color: #334756;
+    height: 4.6vw;
+}
+body {
+    background-color: #082032;
+}
+.balk1 {
+    background-color: #f0a500;
+    color: #f0a500;
+    height: 30px;
+    margin: -10px 0px 0px 0px;
+}
+li {
+    float: left;
+}
+ul {
+    list-style: none;
+    position: relative;
+    top: 20px;
+    }
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-large;
+    padding: 30px;
+}
+a:hover {
+    background-color: #334766;
+    padding-top: 30px;
+	padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80px;
+}
+p {
+    color: white;
+}
+
+
+#merch1 {
+    margin: 150px 0px 0px 150px;
+/*    border: solid green; */
+}
+#merch2 {
+    margin: 150px 0px 0px 150px;
+/*    border: solid green */
+}
+#merch3 {
+    margin: 150px 0px 100px 900px;
+    position: relative;
+    bottom: 693px;
+}
+
+#merch4 {
+    margin: 150px 0px 100px 900px;
+    position: relative;
+    bottom: 688px;
+}
+#merch5 {
+    margin: 150px 0px 100px 150px;
+    position: relative;
+    bottom: 600px;
+/*    border: solid green;  */
+}
+#merch6 {
+    margin: 150px 0px 100px 900px;
+    position: relative;
+    bottom: 945px;  
+}
+#merch7 {
+    margin: 150px 0px 100px 150px;
+    position: relative;
+    bottom: 904px;
+/*  border: solid green; */
+}
+#merch8 {
+    margin: 150px 0px 100px 900px;
+    position: relative;
+    bottom: 1250px
+}
+
+body {
+    height: 120px;
+}
+.winkelwagen { 
+    margin: -100px 0px -10px -100px;
+}
+#demo {
+    color: white;
+}
+
+#demo2 {
+    color: white;
+}
+
+#demo3 {
+    color: white;
+}
+
+#demo4 {
+    color: white;
+}
+
+#demo5 {
+    color: white;
+}
+
+#demo6 {
+    color: white;
+}
+
+#demo7 {
+    color: white;
+}
+
+#demo8 {
+    color: white;
+}

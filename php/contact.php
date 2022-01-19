@@ -55,7 +55,7 @@ if (isset($_POST['Email'])) {
 
     $name = $_POST['Name']; 
     $email = $_POST['mail']; 
-    $message = $_POST['Text']; 
+    $message = $_POST['text']; 
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -87,8 +87,8 @@ if (isset($_POST['Email'])) {
     }
 
     $email_message .= "Name: " . clean_string($name) . "\n";
-    $email_message .= "Email: " . clean_string($email) . "\n";
-    $email_message .= "Message: " . clean_string($message) . "\n";
+    $email_message .= "mail: " . clean_string($email) . "\n";
+    $email_message .= "text: " . clean_string($message) . "\n";
 
     // create email headers
     $headers = 'From: ' . $email . "\r\n" .

@@ -29,6 +29,48 @@
     <body>
 <?php
 
+$errors = [];
+$errorMessage = '';
+
+if (!empty($_POST)) {
+    $name = $_POST['name'];
+    $email = $_POST['mail'];
+    $message = $_POST['text'];
+
+    if (empty($name)) {
+        $errors[] = 'vul een naam in';
+    }
+
+    if (empty($mail)) {
+        $errors[] = 'vul een E-mail in';
+    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = 'Email is invalid';
+    }
+
+    if (empty($text)) {
+        $errors[] = 'Vul een text in';
+    }
+
+
+    if (empty($errors)) {
+        $toEmail = '6003599@mborijnland.nl';
+        $emailSubject = 'New email from your contant form';
+        $headers = ['From' => $mail, 'Reply-To' => $mail, 'Content-type' => 'text/html; charset=iso-8859-1'];
+
+        $bodyParagraphs = ["Name: {$name}", "Email: {$mail}", "Message:", $text];
+        $body = join(PHP_EOL, $bodyParagraphs);
+
+        if (mail($toEmail, $emailSubject, $body, $headers)) {
+            header('Location: .html');
+        } else {
+            $errorMessage = 'Oops, iets ging mis probeer het later nog een keer';
+        }
+    } else {
+        $allErrors = join('<br/>', $errors);
+        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+    }
+}
+
 
 ?>
     </Body>

@@ -10,22 +10,6 @@
 <link rel="stylesheet" href="css/contact.css">
 
 <body>
-    <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="merch.html">Merch</a></li>
-            <li><a href="rating.html">Rating</a></li>
-            <li><a href="review.html">Reviews</a></li>
-            <li><a href="over ons.html">About us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <article class="winkelwagen">
-
-        </article>
-        <article class="balk1">
-            <p> .</p>
-        </article>
-    </header>
     <body>
 <?php
 
@@ -101,4 +85,4 @@ if (isset($_POST['Email'])) {
 <?php
 }
 ?>
-    </Body>
+   

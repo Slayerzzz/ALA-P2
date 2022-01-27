@@ -8,7 +8,7 @@
 @media only screen and (max-width: 480px) {
   header {
     background-color: #334756;
-    height: 13vw;
+    height: 8vw;
     width: 1000vw;
   }
 .navsizemain {
@@ -25,15 +25,31 @@ a:hover{
 body {
     background-color: #082032;
 }
+.balk1{
+  background-color: #f0a500;
+  color:#f0a500;
+  width: 100vw;
+  height: 4vw;
+  position:relative;
+  
+}
 }
   @media only screen and (min-width: 480.1px) and (max-width: 768px) {
 header{
+  background-color: #334756;
   height: 10vw;
   width: 100vw;
 }
 .navsizemain {
     padding: 15px;
     font-size: x-large;
+}
+body {
+  background-color: #082032;
+}
+.balk1{
+  background-color: #f0a500;
+  color:#f0a500;
 }
 }  
   

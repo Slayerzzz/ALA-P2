@@ -69,6 +69,21 @@ html {
 body {
     background-color: #082032;
 }
+table {
+    overflow-x:auto;
+    position: relative;
+    right: 3vw;
+    bottom: 2vh;
+    width: 40vw;
+    height: 120vh;
+}
+td  {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Cabin', sans-serif;
+    width: 30vw;
+    text-align: center;
+}
 .balk1 {
     background-color: #f0a500;
     position: relative;
@@ -138,5 +153,12 @@ a:hover {
 .persoon5 img {
 /* jesse */
     margin: 150px 0px 0px 100px;
+}
+article table tr td img {
+    width: 15vw;
+}
+p {
+    color: #FFFFFF;
+    font-size: 24px;
 }
 

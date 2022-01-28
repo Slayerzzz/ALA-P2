@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce03018b-15d5-4f96-920c-4b836fe83ae7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/merch.html" beforeDir="false" afterPath="$PROJECT_DIR$/merch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/WhatsApp Image 2022-01-02 at 12.29.29 AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/WhatsApp Image 2022-01-27 at 4.06.28 PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/WhatsApp Image 2022-01-27 at 6.48.39 PM.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleoverons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/rating.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rating.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/over ons.html" beforeDir="false" afterPath="$PROJECT_DIR$/over ons.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +34,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/opdracht" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bryan\Documents\GitHub\ALA-P2\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bryan\Documents\GitHub\ALA-P2\images" />
     </key>

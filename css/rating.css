@@ -57,127 +57,11 @@ a:hover {
     width: 45vw;
     height: 100vh;
 }
-.mariogalaxy {
-    position: absolute;
-    top: 32vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
+.foto-afbeelding {
+display: block;
+width: 20vw;
+}
 
-}
-.gtav {
-    position: absolute;
-    top: 65vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
-}
-.reddead {
-    position: absolute;
-    top: 100vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
-}
-.smash {
-    position: absolute;
-    top: 125vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
-}
-.overwatch {
-    position: absolute;
-    top: 150vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
-}
-.minecraft {
-    position: absolute;
-    top: 180vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
-}
-.csgo {
-    position: absolute;
-    top: 205vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
-}
-.halflife {
-    position: absolute;
-    top: 233vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
-}
-.ocarina {
-    position: absolute;
-    top: 260vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
-}
-.botw {
-    position: absolute;
-    top: 290vh;
-    left: 7vw;
-    height: 14vh;
-    width: 16vw;
-    box-shadow: 5px 10px rgba(51, 71, 102, 0.21);
-    border-top: 1.5px solid rgba(51, 71, 102, 0.21);
-    border-left: 1.5px solid rgba(51, 71, 102, 0.21);
-    object-fit: cover;
-    border-radius: 5%;
-}
 h1 {
     color: #FFFFFF;
     font-family: 'Cabin', sans-serif;
@@ -195,9 +79,20 @@ th {
     color: #FFFFFF;
     font-size: 22px;
 }
-td  {
+td {
     font-size: 20px;
     color: #FFFFFF;
     font-family: 'Cabin', sans-serif;
-
+    width: 30vw;
+    text-align: center;
+}
+.content {
+    justify-content: center;
+}
+.tekst-content {
+    width: 30vw;
+}
+th {
+    color: #FFFFFF;
+    font-family: 'Cabin', sans-serif;
 }

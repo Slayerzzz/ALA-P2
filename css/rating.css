@@ -79,7 +79,7 @@ th {
     color: #FFFFFF;
     font-size: 22px;
 }
-td  {
+td {
     font-size: 20px;
     color: #FFFFFF;
     font-family: 'Cabin', sans-serif;
@@ -91,4 +91,8 @@ td  {
 }
 .tekst-content {
     width: 30vw;
+}
+th {
+    color: #FFFFFF;
+    font-family: 'Cabin', sans-serif;
 }

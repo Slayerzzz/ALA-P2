@@ -12,20 +12,15 @@
 </head>
 
 <body>
-<header>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="merch.html">Merch</a></li>
-        <li><a href="rating.html">Rating</a></li>
-        <li><a href="review.html">Reviews</a></li>
-        <li><a href="over ons.html">About us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <article class="winkelwagen">
-    </article>
-    <article class="balk1"></article>
-        <p> .</p>
-</header>
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="merch.html">Merch</a>
+    <a href="rating.html">Rating</a>
+    <a href="review.html">Review</a>
+    <a href="over%20ons.html">About us</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="dropDown()">&#9776;</a>
+</div>
 
 <article class="content">
 <table cellspacing="80px" cellpadding="40px">
@@ -56,7 +51,7 @@
             Het spel is wel 18+ en moet alleen gespeeld worden door volwassenen
             Ondanks dat geven wij deze een 5/5 echt een top spel zeker een aanrader!
             de game is te spelen op de pc, playstation 3/4, xbox 360 en xbox one.
-        </p
+        </p>
         </td>
     </tr>
     <td><img class="foto-afbeelding"     src="images/3563-red-dead-redemption-2-1.jpg" alt="Red dead redemption foto"></td>
@@ -133,5 +128,14 @@
 
 
 </body>
-
+<script>
+    function dropDown() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </html>

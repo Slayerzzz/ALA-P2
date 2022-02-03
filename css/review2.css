@@ -452,22 +452,13 @@ html {
     overflow-x: hidden;
 }
 
-header {
-    background-color: #334756;
-}
 body {
     background-color: #082032;
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
 
 }
-.balk1 {
-    background-color: #f0a500;
-    position: relative;
-    top: 60px;
-    color: #f0a500;
-    height: 30px;
-}
+
 ul {
     list-style: none;
     position: relative;
@@ -485,11 +476,7 @@ ul {
     padding-right: 40px;
     width: 80px;
 }
-.winkelwagen {
-    position: relative;
-    left: 49vw;
-    top: 30px;
-}
+
 .plaatje1 {
     position: relative;
     top: 5vw;

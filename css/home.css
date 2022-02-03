@@ -33,6 +33,16 @@ body {
   position:relative;
      
 }
+.tekst1{
+  color: whitesmoke;
+}
+.plaatje2,.plaatje3,.plaatje4,.plaatje5{
+  height: 150px;
+  width: 150px;
+}
+footer{
+  display: none;
+}
 }
   @media only screen and (min-width: 480.1px) and (max-width: 768px) {
 header{
@@ -55,10 +65,24 @@ body {
   display: nones;
   position: relative;
   top: 5vw;
-  right: 23vw;
+  right: 15vw;
   border: #334766 solid 10px;
-  height: 100px;
-  width: 100px;
+  height: 350px;
+  width: 500px;
+}
+footer{
+  display: none;
+}
+.tekst1{
+  position: relative;
+  top: 2.5vw;
+  color: whitesmoke;
+}
+.plaatje2,.plaatje3,.plaatje4,.plaatje5{
+  height: 175px;
+  width: 175px;
+  position: relative;
+  top: 5vw;
 }
 }  
   
@@ -227,6 +251,5 @@ a:hover {
 footer{
   background-color: #334756;
   height: 3.5vw;
-}
 }
 }

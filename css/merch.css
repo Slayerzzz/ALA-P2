@@ -39,6 +39,7 @@
 #respond {
     color: white;
 }
+
 body {
     background-color: #082032;
 }
@@ -63,8 +64,6 @@ a:hover {
     padding-left: 30px;
     padding-right: 30px;
     width: 80px;
-}
-
 }
 body {
     background-color: #082032;

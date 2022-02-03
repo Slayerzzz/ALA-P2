@@ -3,18 +3,11 @@
     padding: 0;
 }
 
-header {
-background-color: #334756;
-height: 4.6vw;
-}
+
 body {
 background-color: #082032;
 }
-.winkelwagen {
-position: relative;
-left: 49vw;
-top: 30px;
-}
+
 .plaatje1 {
 position: relative;
 top: 5vw;

@@ -4,10 +4,7 @@
     padding: 0;
 }
 
-header {
-    background-color: #334756;
-    height: 4.6vw;
-}
+
 body {
     background-color: #082032;
 }
@@ -26,13 +23,7 @@ td  {
     width: 30vw;
     text-align: center;
 }
-.balk1 {
-    background-color: #f0a500;
-    position: relative;
-    top: 60px;
-    color: #f0a500;
-    height: 30px;
-}
+
 li {
     float: left;
 }
@@ -55,11 +46,7 @@ a:hover {
     padding-right: 30px;
     width: 80px;
 }
-.winkelwagen {
-    position: relative;
-    left: 49vw;
-    top: 30px;
-}
+
 .plaatje1 {
     position: relative;
     top: 5vw;

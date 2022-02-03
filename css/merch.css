@@ -39,14 +39,10 @@
 #respond {
     color: white;
 }
-header {
-    background-color: #334756;
-    height: 4.6vw;
-}
+
 body {
     background-color: #082032;
 }
-
 li {
     float: left;
 }
@@ -68,10 +64,6 @@ a:hover {
     padding-left: 30px;
     padding-right: 30px;
     width: 80px;
-}
-header {
-    background-color: #334756;
-    height: 4.6vw;
 }
 body {
     background-color: #082032;

@@ -60,22 +60,14 @@
 }
 
 
-header {
-    background-color: #334756;
-}
+
 html {
     padding: 2px;
 }
 body {
     background-color: #082032;
 }
-.balk1 {
-    background-color: #f0a500;
-    position: relative;
-    top: 60px;
-    color: #f0a500;
-    height: 30px;
-}
+
 li {
     float: left;
 }
@@ -98,11 +90,7 @@ a {
 a:hover {
     background-color: #334766;
 }
-.winkelwagen {
-    position: relative;
-    left: 49vw;
-    top: 30px;
-}
+
 .plaatje1 {
     position: relative;
     top: 5vw;

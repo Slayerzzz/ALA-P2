@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<link rel="stylesheet" href="css/home.css">
+<div class="topnav" id="myTopnav">
+    <a href="index.html"class="active">Home</a>
+    <a href="merch.html">Merch</a>
+    <a href="rating.html">Rating</a>
+    <a href="review.html">Review</a>
+    <a href="over%20ons.html">About us</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="dropDown()">&#9776;</a>
+</div>
+
+<body>
+    <header>
+    </header>
+    <section id="slide">
+        <article class="slideshow-container">
+    <img class="mySlides fade"
+        src="images/Halo-Infinite.jpeg" alt="plaatje games" height="305px">
+        
+            
+            <img class="mySlides fade" 
+            src="images/consoles.jpg" alt="plaatje games" height="300px">
+            
+        
+            <img class="mySlides fade"
+             src="images/battlefield.jpg" alt="plaatje games" height="300px">
+
+                <img class="mySlides fade"
+             src="images/pokemon.jpg" alt="plaatje games" height="300px">
+ 
+        </article>
+        <br>
+        <article style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </article>
+    <article class="tekst1">
+        <p>
+           
+            Welkom bij Gamestars. 
+            Wij reviewen games en geven deze een rating. Jij kan zelf ook een rating geven aan de games die je speelt. Ook verkopen wij merchandise met onze logo’s erop zoals
+             Bijv: muismatten, sokken en petten. Ook kan je informatie over ons vinden op de About us pagina. 
+             je kan ook contact met ons opnemen voor vragen.
+             Nog veel plezier op onze pagina surfen, groeten Het Gamestars team.
+        </p>
+    </article>
+</section>
+    <img class ="plaatje2" src="images/forza.jpg" alt="plaatje game" >
+
+    <img class ="plaatje3" src="images/call of duty.jpeg" width="200px" height="200px" alt="plaatje game" >
+
+    <img class ="plaatje4" src="images/Horizon.jpg" width="200px" height="200px" alt="plaatje game" >
+
+    <img class ="plaatje5" src="images/smash.jpg" width="200px" height="200px" alt="plaatje game" >
+
+<footer>
+    <li><img src="images/Facebook logo.png" width="50px"  alt="facebook logo"  /></li>
+    <li><img src="images/Instagram-logo.png" width="50px" alt="instagram logo"  /></li>
+</footer>
+</body>
+<script src="js/home.js"></script>
+<script>
+    function dropDown() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+</html>

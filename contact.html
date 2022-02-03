@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<link rel="stylesheet" href="css/contact.css">
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="merch.html">Merch</a>
+    <a href="rating.html">Rating</a>
+    <a href="review.html">Review</a>
+    <a href="over%20ons.html">About us</a>
+    <a href="contact.html"class="active">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="dropDown()">&#9776;</a>
+</div>
+
+<body>
+
+
+
+    <article class="rating">
+        <br>
+        <p>voor vragen of opmerkingen kunt u hier uw reactie achterlaten en wij reageren binnen 2 werkdagen.</p>
+        <br>
+        <br>
+        <form action="contact.php"  method="post">
+          <label for="name">schrijf hier jouw Naam</label>
+          <input type="text" id="name" placeholder="Naam">
+      
+          <label for="mail">schrijf hier jouw E-mail</label>
+          <input type="text" id="mail" name="E-mail" placeholder=" E-mail">
+      
+          <label for="onderwerp"></label>
+          <textarea id="text" name="subject" placeholder="schrijf hier iets in.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+    </article>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <li><img src="images/Facebook logo.png" width="50px"  alt="facebook logo"  /></li>
+        <li><img src="images/Instagram-logo.png" width="50px" alt="instagram logo"  /></li>
+    </footer>
+
+</body>
+<script>
+    function dropDown() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+</html>

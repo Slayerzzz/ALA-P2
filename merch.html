@@ -8,18 +8,19 @@
     <title>Merch</title>
 </head>
 <link rel="stylesheet" href="css/merch.css">
-<link href="php/merch.php">
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="merch.html" class="active">Merch</a>
+    <a href="rating.html">Rating</a>
+    <a href="review.html">Review</a>
+    <a href="over%20ons.html">About us</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="dropDown()">&#9776;</a>
+</div>
 
 <body>
     <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="merch.html">Merch</a></li>
-            <li><a href="rating.html">Rating</a></li>
-            <li><a href="review.html">Reviews</a></li>
-            <li><a href="over ons.html">About us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+
         <article class="balk1">
             <p></p>
         </article>
@@ -139,6 +140,23 @@
 
     </section>
 
-
+<h2 id="Respond">
+    Oops! Something went wrong, visit this page on laptop.
+</h2>
+        
+<footer>
+    <li><img src="images/Facebook logo.png" width="50px"  alt="facebook logo"  /></li>
+    <li><img src="images/Instagram-logo.png" width="50px" alt="instagram logo"  /></li>
+</footer>
 </body>
+<script>
+    function dropDown() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </html>

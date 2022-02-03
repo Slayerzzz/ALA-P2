@@ -9,22 +9,19 @@
 </head>
 <link rel="stylesheet" href="css/review2.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="merch.html">Merch</a>
+    <a href="rating.html" class="active">Rating</a>
+    <a href="review.html">Review</a>
+    <a href="over%20ons.html">About us</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="dropDown()">&#9776;</a>
+</div>
 
 <body>
     <header>
-        <nav class="nav1">
-            <ul>
-                <li><a class="navsizemain" href="index.html">Home</a></li>
-                <li><a class="navsizemain" href="merch.html">Merch</a></li>
-                <li><a class="navsizemain" href="rating.html">Rating</a></li>
-                <li><a class="navsizemain" href="review.html">Reviews</a></li>
-                <li><a class="navsizemain" href="over ons.html">About us</a></li>
-                <li><a class="navsizemain" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <article class="winkelwagen">
 
-        </article>
         <article class="balk1">
             <nav class="nav2">
                 <li><a class="sizenav" href="reviewminecraft.html">minecraft</a></li>
@@ -102,5 +99,14 @@
     </script>
 
 </body>
-
+<script>
+    function dropDown() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </html>

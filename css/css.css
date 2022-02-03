@@ -1,69 +1,68 @@
+/*home */
 * {
     margin: auto;
     padding: 0;
 }
-
 @media screen and (max-width: 480px) {
     header {
-        display: none;
+        height: 13vw;
+        width: 1000vw;
     }
-    #alles {
-        display: none;
+    .navsizemain {
+        padding: 10px;
+        font-size: larger;
     }
+    a:hover {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 15px;
+    }
+    
 }
-
 @media screen and (min-width: 481px) and (max-width: 768px) {
     header {
-        display: none;
+        height: 10vw;
+        width: 100vw;
     }
-    #alles {
-        display: none;
+    .navsizemain {
+        padding: 15px;
+        font-size: x-large;
     }
 }
-
 @media screen and (min-width: 769px) and (max-width: 1279px) {
     header {
-        display: none;
-    }
-    #alles {
-        display: none;
+        height: 7vw;
+        width: 100vw;
+    } 
+    .navsizemain {
+        padding: 30px;
+        font-size: xx-large;
     }
 }
-
 @media screen and (min-width: 1280px) {
-    #respond {
-    display: none;
+    header {
+        height: 4vw;
+        width: 100vw;
+    } 
+    .navsizemain {
+        padding: 40px;
+        font-size: xx-large;
+    }
+    a:hover {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 15px;
     }
 }
 
-#respond {
-    color: white;
-}
 
-body {
-    background-color: #082032;
-}
-li {
-    float: left;
-}
-ul {
-    list-style: none;
-    position: relative;
-    top: 20px;
-    }
-a {
-    text-decoration: none;
-    color: aliceblue;
-    font-size: x-large;
-    padding: 30px;
-}
-a:hover {
-    background-color: #334766;
-    padding-top: 30px;
-	padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 80px;
+
+html {
+    padding: 2px;
 }
 body {
     background-color: #082032;
@@ -72,6 +71,13 @@ body {
 li {
     float: left;
 }
+li a:hover:not(.active) {
+    background-color: #334766;
+  }
+  .active {
+    background-color:#334766 ;
+  }
+
 ul {
     list-style: none;
     position: relative;
@@ -80,102 +86,47 @@ ul {
 a {
     text-decoration: none;
     color: aliceblue;
-    font-size: x-large;
-    padding: 30px;
 }
 a:hover {
     background-color: #334766;
-    padding-top: 30px;
-	padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 80px;
-}
-p {
-    color: white;
 }
 
-.winkelwagen{
-    display: none;
-}
-#merch1 {
-    margin: 150px 0px 0px 150px;
-/*    border: solid green; */
-}
-#merch2 {
-    margin: 150px 0px 0px 150px;
-/*    border: solid green */
-}
-#merch3 {
-    margin: 150px 0px 100px 900px;
+.plaatje1 {
     position: relative;
-    bottom: 693px;
+    top: 5vw;
+    left: 5vw;
+    border: #334766 solid 15px;
 }
-
-#merch4 {
-    margin: 150px 0px 100px 900px;
+.tekst1 {
     position: relative;
-    bottom: 688px;
-}
-#merch5 {
-    margin: 150px 0px 100px 150px;
-    position: relative;
-    bottom: 600px;
-/*    border: solid green;  */
-}
-#merch6 {
-    margin: 150px 0px 100px 900px;
-    position: relative;
-    bottom: 945px;  
-}
-#merch7 {
-    margin: 150px 0px 100px 150px;
-    position: relative;
-    bottom: 904px;
-/*  border: solid green; */
-}
-#merch8 {
-    margin: 150px 0px 100px 900px;
-    position: relative;
-    bottom: 1250px
-}
-
-body {
-    height: 120px;
-}
-#demo {
-    color: white;
-}
-
-#demo2 {
-    color: white;
-}
-
-#demo3 {
-    color: white;
-}
-
-#demo4 {
-    color: white;
-}
-
-#demo5 {
-    color: white;
-}
-
-#demo6 {
-    color: white;
-}
-
-#demo7 {
-    color: white;
-}
-
-#demo8 {
+    bottom: 16vw;
+    left: 15vw;
+    width: 500px;
     color: white;
 }
 
 
+
+.persoon1 img {
+/* bryan */
+    margin: 100px 0px 0px 0px;
+}
+.persoon2 img {
+/* mitchanok */
+    margin: 100px 0px 0px 0px;
+}
+.persoon3 img {
+/* nathan */
+    margin: 100px 0px 0px 0px;
+}
+.persoon4 img {
+/* daan */
+    margin: 100px 0px 0px 100px;
+}
+.persoon5 img {
+/* jesse */
+    margin: 150px 0px 0px 100px;
+}
 
  /* navbar responsive */
 

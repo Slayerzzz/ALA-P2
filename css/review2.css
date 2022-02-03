@@ -1,4 +1,3 @@
-/*home */
 * {
     margin: auto;
     padding: 0;
@@ -77,6 +76,9 @@
   .textgebied{
     display: none;
   }
+  #review3 {
+      display: none;
+  }
   iframe {
     display: none;
   }
@@ -142,8 +144,23 @@
       height: 20vw;
       width: 100vw;
   } 
+  img {
+      display: none;
+  }
+  #review3 {
+    display: none;
+}
+  p {
+      display: none;
+  }
+  iframe {
+      display: none;
+  }
   li {
     float: left;
+  }
+  h1 {
+      display: none;
   }
   .container {
     position: relative;
@@ -203,6 +220,27 @@
       height: 10vw;
       width: 100vw;
   } 
+  #review3 {
+    position: relative;
+    right: 5vw;
+    top: 10vw;
+
+}
+img {
+    position: relative;
+    left: 8vw;
+}
+iframe {
+    position: relative;
+    top: 5vw;
+    left: 13vw;
+}
+h1 {
+    display: none;
+}
+p {
+    display: none;
+}
   li {
     float: left;
   }
@@ -341,6 +379,15 @@ display: none;
       height: 4vw;
       width: 100vw;
   } 
+  iframe {
+      position: relative;
+      left: 4.9vw;
+  }
+  #review3 {
+      position: relative;
+      left: 30vw;
+      bottom: 25vw;
+  }
   .container {
     margin-top: 5vw;
     position: relative;
@@ -350,7 +397,7 @@ display: none;
   .textgebied {
     position: relative;
     top:5vw;
-    right: 14vw;
+    right: 3vw;
   }
   #infotext {
     position: relative;
@@ -395,8 +442,8 @@ display: none;
   }
   .nav2 {
     position: relative;
-    right: 66vw;
-    bottom: 1vw;
+    right: 68vw;
+    bottom: -0.2vw;
   }
 }
 
@@ -652,29 +699,18 @@ p {
     bottom: 29.5vw;
  }
 
-  #review3 {
-     position: relative;
-     left: 18vw;
-     bottom: 25vw;
-  }
+
   /**/
   .govideo {
       position: relative;
-      bottom: 10vw;
-      left: 5vw;
-      border: 10px solid #334766;
+      border: #334766 10px solid;
   }
   .dutyfilm {
       border: #334766 10px solid;
-      position: relative;
-      left: 5vw;
-      bottom: 6vw;
+
   }
   .minevid {
       border: #334766 10px solid;
-      position: relative;
-      bottom: 5vw;
-      left: 5vw;
   }
   .containers .btns {
     transform: translate(-50%, -50%);

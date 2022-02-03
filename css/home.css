@@ -51,6 +51,15 @@ body {
   background-color: #f0a500;
   color:#f0a500;
 }
+.mySlides{
+  display: nones;
+  position: relative;
+  top: 5vw;
+  right: 23vw;
+  border: #334766 solid 10px;
+  height: 100px;
+  width: 100px;
+}
 }  
   
   @media only screen and (min-width: 768.1px){
@@ -218,5 +227,6 @@ a:hover {
 footer{
   background-color: #334756;
   height: 3.5vw;
+}
 }
 }

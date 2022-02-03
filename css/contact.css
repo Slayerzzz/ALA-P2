@@ -17,7 +17,21 @@ body {
     color: #f0a500;
     height: 30px;
 }
+li {
+    float: left;
+}
+li a:hover:not(.active) {
+    background-color: #334766;
+  }
+  .active {
+    background-color:#334766 ;
+  }
 
+ul {
+    list-style: none;
+    position: relative;
+    top: 20px;
+    }
 a {
     text-decoration: none;
     color: aliceblue;

@@ -162,9 +162,6 @@ p {
 body {
     height: 120px;
 }
-.winkelwagen { 
-    margin: -100px 0px -10px -100px;
-}
 #demo {
     color: white;
 }
@@ -196,3 +193,6 @@ body {
 #demo8 {
     color: white;
 }
+
+
+

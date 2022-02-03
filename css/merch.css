@@ -114,7 +114,9 @@ p {
     color: white;
 }
 
-
+.winkelwagen{
+    display: none;
+}
 #merch1 {
     margin: 150px 0px 0px 150px;
 /*    border: solid green; */

@@ -46,13 +46,7 @@ header {
 body {
     background-color: #082032;
 }
-.balk1 {
-    background-color: #f0a500;
-    position: relative;
-    top: 60px;
-    color: #f0a500;
-    height: 30px;
-}
+
 li {
     float: left;
 }
@@ -82,12 +76,7 @@ header {
 body {
     background-color: #082032;
 }
-.balk1 {
-    background-color: #f0a500;
-    color: #f0a500;
-    height: 30px;
-    margin: -10px 0px 0px 0px;
-}
+
 li {
     float: left;
 }
